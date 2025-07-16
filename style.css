@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+   background-color: aliceblue;
+    font-family: "Itim", sans-serif;
+    color: #6A1B9A;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 50px;
+    height: 100vh;
+    padding: 1px 50px;
+}
+h1 {
+    font-size: 3.5rem;
+}
+h2 {
+    font-size: 2.5rem;
+    color: #9C4D97;
+}
+span {
+    color: #9C4D97;
+}
+p {
+    font-size: 1.9rem;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+img {
+    width: 200px;
+    cursor: pointer;
+    transition: all .1s;
+}
+img:hover {
+    transform: scale(0.9);
+}
+.scores div {
+    display: flex;
+}
+#player {
+    color: #43A047;
+}
+#computer {
+    color: #D32F2F;
+}
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1rem;
+    }
+    .scores p {
+        font-size: 1.2rem;
+    }
+
+    img {
+        width: 100px;
+    }
+
+    .cards {
+        gap: 10px;
+    }
+
+}

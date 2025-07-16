@@ -28,19 +28,19 @@ cards.forEach(card => {
                 case "2":
                     if (computerChoice == 3) {
                         scoreC += 1;
-                        result.textContent = "You lose, scissors beats paper";
+                        result.textContent = "You lose, rock beats scissors";
                     } else {
                         scoreP += 1;
-                        result.textContent = "You win, paper beats rock";
+                        result.textContent = "You win, scissors beats paper";
                     }
                     break;
                 case "3":
                     if (computerChoice == 1) {
                         scoreC += 1;
-                        result.textContent = "You lose, rock beats scissors";
+                        result.textContent = "You lose, scissors beats paper";
                     } else {
                         scoreP += 1;
-                        result.textContent = "You win, scissors beats paper";
+                        result.textContent = "You win, paper beats rock";
                     }
                     break;
             }
